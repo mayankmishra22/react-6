@@ -1,0 +1,104 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2c3e50; /* Dark background */
+  color: #ecf0f1; /* Light text color */
+}
+
+.resume-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Light shadow */
+  background-color: #34495e; /* Slightly lighter background */
+  border-radius: 10px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #3498db; /* Blue header text */
+}
+
+header p {
+  color: #bdc3c7; /* Light gray subheading text */
+}
+
+h2 {
+  color: #2ecc71; /* Green section headings */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.experience-card {
+  background-color: #2c3e50; /* Dark background for experience cards */
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #34495e; /* Border color */
+}
+
+.project-card {
+  background-color: #34495e; /* Slightly lighter background for project cards */
+  color: #ecf0f1; /* Light text color for project cards */
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #2c3e50; /* Border color */
+}
+
+.skills-accomplished {
+  margin-top: 30px;
+}
+
+.skills-accomplished ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-accomplished li {
+  background-color: #2e68cc67; /* Green background for skill list items */
+  color: #fff; /* White text color for skill list items */
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #bdc3c7; /* Light gray text in the footer */
+}
+
+.contact {
+  margin-top: 30px;
+}
+
+.contact-card {
+  background-color: #3498db32; /* Blue background for contact card */
+  color: #fff; /* White text color for contact card */
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.contact-card a {
+  color: #fff; /* White text color for links in contact card */
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  text-decoration: underline; /* Underline on hover for links in contact card */
+}
